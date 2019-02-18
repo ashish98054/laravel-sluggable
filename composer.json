@@ -1,0 +1,23 @@
+{
+    "name": "artisan/laravel-sluggable",
+    "description": "Laravel package for generating eloquent slug",
+    "authors": [
+        {
+            "name": "Ashish K. Poudel",
+            "email": "routeasis@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Artisan\\LaravelSluggable\\" : "src"
+    	}
+    },
+    "extra": {
+    	"laravel": {
+    		"providers": [
+    			"Artisan\\LaravelSluggable\\ServiceProvider"
+    		]
+    	}
+    }
+}
